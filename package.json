@@ -1,0 +1,15 @@
+{
+  "name": "polygon-graph-op-chain",
+  "private": true,
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "docs": "cd packages/docs && yarn dev",
+    "build": "yarn workspaces run build",
+    "dev": "yarn workspaces run dev"
+  }
+}
